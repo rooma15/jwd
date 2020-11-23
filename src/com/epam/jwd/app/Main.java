@@ -6,8 +6,8 @@ import com.epam.jwd.model.Point;
 
 public class Main {
     public static void main(String[] args) {
-        final Logger LOGGER = LogManager.getLogger();
-        Point[] pointMass = new Point[4];
+        private final Logger LOGGER = LogManager.getLogger(Main.class);
+        private Point[] pointMass = new Point[4];
         for(int i = 0; i < 4; i++) {
             pointMass[i] = new Point(i, i);
         }
